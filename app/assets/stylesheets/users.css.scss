@@ -1,3 +1,14 @@
+// Users show page style
+
+.profile-pic {
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);   //created with http://www.cssmatic.com/box-shadow
+    height: 128px;
+    width: 128px;
+}
+
 .job-title-icon {
     display: inline-block;
     width: 30px;
@@ -26,9 +37,7 @@
     border-color: #46b8da;
 }
 
-.profile-pic {
-    border-radius: 50%;
-    -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);   //created with http://www.cssmatic.com/box-shadow
+// User index page styles
+.well.white-bg {
+    background-color: white;
 }
